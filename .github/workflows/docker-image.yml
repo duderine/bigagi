@@ -10,6 +10,7 @@
 name: Create and publish Docker images
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main          # Primary branch (Big-AGI Open)
